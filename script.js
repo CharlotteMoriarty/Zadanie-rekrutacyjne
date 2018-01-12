@@ -46,7 +46,7 @@ $(function() {
     updateFields = function() {
         var newValue = 0.0;
         $("#listing > tr").each(function() {
-            newValue += parseFloat($(this).find($(".pricePln")).text()) | 0;
+            newValue += parseFloat($(this).find($(".pricePln")).text());
         });
         $("#sum").text(newValue.toFixed(2));
     }
@@ -57,7 +57,7 @@ $(function() {
             var temp = {};
             temp.name = $(this).find($(".name")).text();
             temp.eur = $(this).find($(".priceEur")).text();
-            temp.pln = parseFloat($(this).find($(".pricePln")).text()) | 0;
+            temp.pln = parseFloat($(this).find($(".pricePln")).text());
             b = biggest.pln | 0;
             if (temp.pln > b) {
                 biggest = temp;
