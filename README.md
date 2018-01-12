@@ -2,16 +2,19 @@
 
 ![zdjecie](https://github.com/CharlotteMoriarty/Zadanie-rekrutacyjne/blob/master/image/converter.PNG)
 
-#Główne założenia :
+# Główne założenia:
 
-$ definiowanie przelicznika
+( w skrócie -> $ + ▒ ⌛ ✄ ⚖ )
 
-+ dodawanie transakcji
 
-▒ utworzenie listy transakcji 
+❧ definiowanie przelicznika
 
-⌛ automatyczna aktualizacja danych
+❧ dodawanie transakcji
 
-✄ usuwanie transakcji
+❧ utworzenie listy transakcji 
 
-⚖ wyświetl najdroższą transakcję z wszystkich
+❧ automatyczna aktualizacja danych
+
+❧ usuwanie transakcji
+
+❧ wyświetl najdroższą transakcję z wszystkich
